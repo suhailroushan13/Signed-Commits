@@ -14,8 +14,8 @@ Okay, if you’re into Git, you might have already known that you can change git
 
 ### GitHub Config SetUp
 ```bash
-  git config user.name 'YOUR_GITHUB_USERNAME'
-  git config user.email 'YOUR_GITHUB_EMAIL'
+git config --global user.name "YOUR_GITHUB_USERNAME"
+git config --global user.email "YOUR_GITHUB_EMAIL"
 ```
 
 ### When Running for the First Time it will ask for Name , Email , Password , Passphrase
