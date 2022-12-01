@@ -22,6 +22,10 @@ git config --global user.email "YOUR_GITHUB_EMAIL"
 ```bash
   gpg --full-generate-key
 ```
+## Screenshots
+
+![App Screenshot](https://i.imgur.com/wxY80w3.png)
+![App Screenshot](https://i.imgur.com/7YF5e75.png)
 
 ### Get Your KEY ID
 ```bash
