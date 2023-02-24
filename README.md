@@ -135,3 +135,9 @@ git config --global commit.gpgsign true
 [tag]
         gpgsign = true
 ```
+
+### Type this for Terminal 
+```bash
+GPG_TTY=$(tty)
+export GPG_TTY
+```
