@@ -130,14 +130,21 @@ git config --global commit.gpgsign true
 ### Open git config file from ~/.gitconfig and add following lines in it.
 
 ```bash
-[commit]
-        gpgsign = true
 [tag]
         gpgsign = true
 ```
 
-### Add this 2 lines in .bashrc or .bash_profile
+### Type this in Terminal
 ```bash
-GPG_TTY=$(tty)
-export GPG_TTY
+export GPG_TTY=$(tty)
+```
+
+
+### Clone Any Repo
+```bash
+git clone suhailroushaan13@AnyRepo
+Make Changes
+git add .
+git commit -m "Changes Done" 
+git push origin master
 ```
