@@ -142,7 +142,7 @@ export GPG_TTY=$(tty)
 
 ### Clone Any Repo
 ```bash
-git clone suhailroushaan13@AnyRepo
+git clone git@github.com:suhailroushan13/Signed-Commits.git
 Make Changes
 git add .
 git commit -m "Changes Done" 
